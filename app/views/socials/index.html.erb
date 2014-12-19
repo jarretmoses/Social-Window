@@ -1,0 +1,12 @@
+<div class="row">
+  <div id="tweets" class="col-md-3">
+  <p class="social-title">Twitter</p>
+    <ul class= "list-group">
+     <% @tweets.each do |tweet| %>
+     <li class= "list-group-item">
+      <%= tweet %>
+     </li>
+     <% end %>
+    </ul>
+  </div>  
+</div>
