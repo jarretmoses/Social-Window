@@ -1,6 +1,7 @@
 class SocialsController < ApplicationController
   def index
-    @tweets = get_tweets
+    # @tweets = get_tweets
+    @tweets =[]
   end
 
   private
